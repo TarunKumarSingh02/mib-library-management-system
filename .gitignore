@@ -1,0 +1,34 @@
+﻿# .NET build output
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+
+# NuGet
+packages/
+
+# Environment and secrets
+.env
+.env.*
+secrets.json
+appsettings.Development.json
+
+# Logs and databases
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exclude documentation PDF containing default credentials
+DOCUMENTATION.pdf
